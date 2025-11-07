@@ -4,7 +4,7 @@ import Header from "./my-components/Header";
 import Footer from "./my-components/Footer";
 import Home from "./my-components/Home";
 import AdvancedJS  from "./my-components/AdvancedJS";
-import { BrowserRouter as BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as BrowserRouter, HashRouter as HashRouter, Routes, Route } from 'react-router-dom';
 import FAQ from "./my-components/FAQ";
 import Invoice from "./my-components/Invoice";
 //Function Component "App"
