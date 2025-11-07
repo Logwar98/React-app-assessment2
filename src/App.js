@@ -13,7 +13,8 @@ function App() {
  //Component UI: HTML Rendering
  return (
  <> {/*React Fragment: serve as parent component in JSX and doesn't add anything to the DOM */}
- <BrowserRouter>
+{/* <BrowserRouter basename='/React-Project2'> */ }
+<HashRouter>
  <Header />
  <Routes>
     <Route path="/" element={<Home />} />
@@ -22,9 +23,10 @@ function App() {
     <Route path="/invoice" element={<Invoice />} />
  </Routes>
  <Footer />
- </BrowserRouter>
+ </HashRouter>
+{ /*</BrowserRouter> */}
  </>
  );
 }
 //Export this component to the entire app, can be re-used or hooked into other Components
-export default App; 
+export default App;
